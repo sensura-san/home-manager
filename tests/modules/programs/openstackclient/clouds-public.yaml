@@ -1,0 +1,6 @@
+%YAML 1.1
+---
+public-clouds:
+  example-cloud:
+    auth:
+      auth_url: https://identity.cloud.example.com/v2.0

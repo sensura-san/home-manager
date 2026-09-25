@@ -1,0 +1,10 @@
+{ lib, pkgs, ... }:
+
+lib.optionalAttrs pkgs.stdenv.hostPlatform.isLinux {
+  linux-wallpaperengine-basic-configuration = ./basic-configuration.nix;
+  linux-wallpaperengine-null-options = ./null-options.nix;
+  linux-wallpaperengine-missing-spaces = ./missing-spaces.nix;
+  linux-wallpaperengine-audio-conflict = ./audio-conflict.nix;
+  linux-wallpaperengine-clamping-legacy = ./clamping-legacy.nix;
+  linux-wallpaperengine-audio-fps-legacy = ./audio-fps-legacy.nix;
+}

@@ -1,0 +1,11 @@
+%YAML 1.1
+---
+extension:
+  go: 
+  hs: 
+filetype:
+  dir: 📂
+  file: 📄
+name:
+  .cargo: 
+  .trash: 

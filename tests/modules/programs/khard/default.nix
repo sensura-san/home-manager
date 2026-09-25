@@ -1,0 +1,7 @@
+{
+  khard_empty_config = ./empty_config.nix;
+  khard_basic_config = ./basic_config.nix;
+  khard_multiple_accounts = ./multiple_accounts.nix;
+  khard_multiple_with_abooks = ./multiple_with_abooks.nix;
+  khard_discover_type = ./discover_type.nix;
+}

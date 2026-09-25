@@ -1,0 +1,8 @@
+%YAML 1.1
+---
+pages:
+- columns:
+  - size: full
+    widgets:
+    - type: calendar
+  name: Calendar

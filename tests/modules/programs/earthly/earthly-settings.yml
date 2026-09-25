@@ -1,0 +1,8 @@
+%YAML 1.1
+---
+git:
+  github.com:
+    auth: ssh
+    user: username
+global:
+  disable_analytics: true

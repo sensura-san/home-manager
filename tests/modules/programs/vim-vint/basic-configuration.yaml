@@ -1,0 +1,18 @@
+%YAML 1.1
+---
+cmdargs:
+  color: true
+  env:
+    neovim: true
+  severity: error
+policies:
+  ProhibitAbbreviationOption:
+    enabled: false
+  ProhibitEqualTildeOperator:
+    enabled: false
+  ProhibitImplicitScopeVariable:
+    enabled: false
+  ProhibitSetNoCompatible:
+    enabled: false
+  ProhibitUsingUndeclaredVariable:
+    enabled: false
